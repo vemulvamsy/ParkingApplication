@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="user_type" table="x_snc_vehicle_park_registerd_users_for_parking" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>user_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Regular</label>
+            <language>en</language>
+            <name>x_snc_vehicle_park_registerd_users_for_parking</name>
+            <sequence>10</sequence>
+            <sys_created_by>vamshi.vemula</sys_created_by>
+            <sys_created_on>2018-10-08 14:22:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>deab05d9db056b00f186fc1ebf9619d8</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>vamshi.vemula</sys_updated_by>
+            <sys_updated_on>2018-10-08 14:22:24</sys_updated_on>
+            <value>regular</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>user_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vip</label>
+            <language>en</language>
+            <name>x_snc_vehicle_park_registerd_users_for_parking</name>
+            <sequence>20</sequence>
+            <sys_created_by>vamshi.vemula</sys_created_by>
+            <sys_created_on>2018-10-08 14:22:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0bbb05d9db056b00f186fc1ebf9619d9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>vamshi.vemula</sys_updated_by>
+            <sys_updated_on>2018-10-08 14:22:36</sys_updated_on>
+            <value>vip</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>user_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Visitor</label>
+            <language>en</language>
+            <name>x_snc_vehicle_park_registerd_users_for_parking</name>
+            <sequence>30</sequence>
+            <sys_created_by>vamshi.vemula</sys_created_by>
+            <sys_created_on>2018-10-08 14:22:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2ecb4dd9db056b00f186fc1ebf961954</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>vamshi.vemula</sys_updated_by>
+            <sys_updated_on>2018-10-08 14:22:55</sys_updated_on>
+            <value>visitor</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>user_type</element>
+            <name>x_snc_vehicle_park_registerd_users_for_parking</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>vamshi.vemula</sys_created_by>
+            <sys_created_on>2018-10-08 14:22:13</sys_created_on>
+            <sys_id>36bb89d9db056b00f186fc1ebf9619a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>user_type</sys_name>
+            <sys_package display_value="vehicle parking" source="x_snc_vehicle_park">679a81d9db056b00f186fc1ebf961916</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="vehicle parking">679a81d9db056b00f186fc1ebf961916</sys_scope>
+            <sys_update_name>sys_choice_x_snc_vehicle_park_registerd_users_for_parking_user_type</sys_update_name>
+            <sys_updated_by>vamshi.vemula</sys_updated_by>
+            <sys_updated_on>2018-10-08 14:22:13</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

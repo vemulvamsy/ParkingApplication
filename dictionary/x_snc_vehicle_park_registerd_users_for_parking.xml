@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Registerd Users for Parking" max_length="40" name="x_snc_vehicle_park_registerd_users_for_parking" type="collection">
+        <element label="User Id" max_length="32" name="user_id" reference="sys_user" type="reference"/>
+        <element display="true" label="User Name" max_length="100" name="user_name" type="string"/>
+        <element choice="3" default="vip" label="User Type" max_length="40" name="user_type" type="choice">
+            <choice>
+                <element label="Regular" sequence="10" value="regular"/>
+                <element label="Vip" sequence="20" value="vip"/>
+                <element label="Visitor" sequence="30" value="visitor"/>
+            </choice>
+        </element>
+        <element label="Vehicle Number" max_length="20" name="vehicle_number" type="string"/>
+        <index name="index">
+            <element name="user_id"/>
+        </index>
+    </element>
+</database>

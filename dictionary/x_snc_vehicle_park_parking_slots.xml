@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Parking Slots" max_length="40" name="x_snc_vehicle_park_parking_slots" type="collection">
+        <element label="Alloted" max_length="40" name="alloted" type="boolean"/>
+        <element display="true" label="Slot Number" max_length="50" name="slot_number" type="string"/>
+        <element label="slot serial number" max_length="40" name="slot_serial_number" type="integer"/>
+        <element choice="1" choice_field="user_type" choice_table="x_snc_vehicle_park_registerd_users_for_parking" label="Type" max_length="40" name="type" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>

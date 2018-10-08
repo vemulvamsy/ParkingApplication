@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>type</field>
+        <global>true</global>
+        <messages/>
+        <name>set slot number</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+  if (newValue === '') {
+      return;
+   }
+	if(g_form.isNewRecord()){
+		var number =0;
+		var flag = false;
+		var counter = g_scratchpad.counter;
+		if(counter.length > 0){
+			for(var i=0;i<counter.length;i++){
+				if(newValue == counter[i].type){
+					flag = true;
+					number = counter[i].max_val;
+				}
+			}
+		}
+		if(counter.length == 0 || flag == false){
+			number = 0;
+		}
+
+		number = parseInt(number)+1;
+		g_form.setValue('slot_serial_number',number);
+		g_form.setValue('slot_number',newValue+number);
+	}else{
+		g_form.setReadOnly('type',true);
+		
+	}
+	
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>vamshi.vemula</sys_created_by>
+        <sys_created_on>2018-10-08 14:45:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>52df459ddb056b00f186fc1ebf96193b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>set slot number</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="vehicle parking" source="x_snc_vehicle_park">679a81d9db056b00f186fc1ebf961916</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="vehicle parking">679a81d9db056b00f186fc1ebf961916</sys_scope>
+        <sys_update_name>sys_script_client_52df459ddb056b00f186fc1ebf96193b</sys_update_name>
+        <sys_updated_by>vamshi.vemula</sys_updated_by>
+        <sys_updated_on>2018-10-08 14:45:38</sys_updated_on>
+        <table>x_snc_vehicle_park_parking_slots</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

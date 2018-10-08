@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>vamshi.vemula</sys_created_by>
+        <sys_created_on>2018-10-08 14:32:42</sys_created_on>
+        <sys_id>9c2e855ddb056b00f186fc1ebf961910</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_vehicle_park_parking.x_snc_vehicle_park.parking_user</sys_name>
+        <sys_package display_value="vehicle parking" source="x_snc_vehicle_park">679a81d9db056b00f186fc1ebf961916</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="vehicle parking">679a81d9db056b00f186fc1ebf961916</sys_scope>
+        <sys_security_acl display_value="x_snc_vehicle_park_parking">542e855ddb056b00f186fc1ebf96190e</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_9c2e855ddb056b00f186fc1ebf961910</sys_update_name>
+        <sys_updated_by>vamshi.vemula</sys_updated_by>
+        <sys_updated_on>2018-10-08 14:32:42</sys_updated_on>
+        <sys_user_role display_value="x_snc_vehicle_park.parking_user" name="x_snc_vehicle_park.parking_user">802e055ddb056b00f186fc1ebf96191a</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
