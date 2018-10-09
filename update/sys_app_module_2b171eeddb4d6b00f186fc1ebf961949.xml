@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Parking">b77b89d9db056b00f186fc1ebf961946</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Parking Exit</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>200</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>ui_page.do?sys_id=5de452addb4d6b00f186fc1ebf9619a5</query>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>vamshi.vemula</sys_created_by>
+        <sys_created_on>2018-10-09 14:30:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2b171eeddb4d6b00f186fc1ebf961949</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Parking Exit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="vehicle parking" source="x_snc_vehicle_park">679a81d9db056b00f186fc1ebf961916</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="vehicle parking">679a81d9db056b00f186fc1ebf961916</sys_scope>
+        <sys_update_name>sys_app_module_2b171eeddb4d6b00f186fc1ebf961949</sys_update_name>
+        <sys_updated_by>vamshi.vemula</sys_updated_by>
+        <sys_updated_on>2018-10-09 14:30:50</sys_updated_on>
+        <timeline_page/>
+        <title>Parking Exit</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>
